@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Crop Advisory System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌾 Smart Crop Advisory System</h1>
+    <p>For Small & Marginal Farmers</p>
+
+    <form id="cropForm">
+        <input type="number" id="nitrogen" placeholder="Nitrogen (N)" required>
+        <input type="number" id="phosphorus" placeholder="Phosphorus (P)" required>
+        <input type="number" id="potassium" placeholder="Potassium (K)" required>
+        <input type="number" id="temperature" placeholder="Temperature (°C)" required>
+        <input type="number" id="humidity" placeholder="Humidity (%)" required>
+        <input type="number" id="rainfall" placeholder="Rainfall (mm)" required>
+
+        <button type="submit">Get Advisory</button>
+    </form>
+
+    <div id="result" class="result-box"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
